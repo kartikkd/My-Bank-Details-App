@@ -10,6 +10,19 @@ sap.ui.define([
         return Controller.extend("com.sap.mybankdetails.controller.App", {
             onInit: function () {
 
+                let oModel = this.getOwnerComponent().getModel("oBankDetails");
+                this.getView().setModel(oModel);
+
+
+                // let oProfileModel=new sap.ui.model.json.JSONModel(
+                // {profile: sap.ui.require.toUrl("com/sap/mybankdetails/images/download.jpg")});
+                // this.getView().setModel(oProfileModel);
+
+
+
+                // let oModel=new sap.ui.model.json.JSONModel(); 
+                // oModel.setData(oData);
+                // this.getView().setModel(oModel,"oBankDetails");
             },
             onOpenBankDetails: function () {
                 //create dialog lazily
@@ -25,6 +38,8 @@ sap.ui.define([
             },
             onCloseBankDetails: function () {
                 this.byId("moreBankDetials").close();
-            }
+            },
+
+
         });
     });

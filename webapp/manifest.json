@@ -14,8 +14,15 @@
       "id": "@sap/generator-fiori:basic",
       "version": "1.11.3",
       "toolsId": "61583e86-a015-458c-9d90-69cebe1c432c"
+    },
+    "dataSources": {
+      "JsonModel": {
+        "uri": "model/bankdetails.json",
+        "type": "JSON"
+      }
     }
   },
+ 
   "sap.ui": {
     "technology": "UI5",
     "icons": {
@@ -57,6 +64,10 @@
         "settings": {
           "bundleName": "com.sap.mybankdetails.i18n.i18n"
         }
+      },
+      "oBankDetails": {
+        "type": "sap.ui.model.json.JSONModel",
+        "dataSource": "JsonModel"
       }
     },
     "resources": {
