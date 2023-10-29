@@ -5,15 +5,15 @@
         <VBox id="vbox1" class="sapUiSmallMargin">
             <Title text="Account Details" id="bankAccDetails"></Title>
             <HBox id="hbox1">
-                <Label text="Bank Account Number" id="bankAccNum" class="sapUiSmallMarginEnd"></Label>
+                <Label text="{i18n>accName}" id="bankAccNum" class="sapUiSmallMarginEnd"></Label>
                 <Text text="2323423*****" id="bankAccVal"></Text>
             </HBox>
             <HBox id="hbox2">
-                <Label text="Account Holder Name" id="bankAccHold" class="sapUiSmallMarginEnd"></Label>
+                <Label text="{i18n>accHName}" id="bankAccHold" class="sapUiSmallMarginEnd"></Label>
                 <Text text="Golddust" id="bankAccHoldVal"></Text>
             </HBox>
             <HBox id="hbox3">
-                <Label text="IFSC" id="bankIfsc" class="sapUiSmallMarginEnd"></Label>
+                <Label text="{i18n>IFSCode}" id="bankIfsc" class="sapUiSmallMarginEnd"></Label>
                 <Text text="001212****" id="bankIfscVal"></Text>
             </HBox>
         </VBox>
