@@ -20,7 +20,7 @@
                     </HBox>
 
                     <Button id="openBankDetails" type="Neutral" text="{i18n>findMoreBtn}" class="" press=".onOpenBankDetails" />
-
+                    <!-- test line 2 -->
                 </VBox>
             </HBox>
         </content>
