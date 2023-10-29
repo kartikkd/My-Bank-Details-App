@@ -2,19 +2,19 @@
     xmlns:core="sap.ui.core">
 
     <Dialog id="moreBankDetials" title="Confidential Details">
-        <VBox id="vbox1" class="sapUiSmallMargin">
+        <VBox id="vbox1" binding="{/accountDetails}" class="sapUiSmallMargin">
             <Title text="Account Details" id="bankAccDetails"></Title>
             <HBox id="hbox1">
                 <Label text="{i18n>accName}" id="bankAccNum" class="sapUiSmallMarginEnd"></Label>
-                <Text text="2323423*****" id="bankAccVal"></Text>
+                <Text text="{AccountNum}" id="bankAccVal"></Text>
             </HBox>
             <HBox id="hbox2">
                 <Label text="{i18n>accHName}" id="bankAccHold" class="sapUiSmallMarginEnd"></Label>
-                <Text text="Golddust" id="bankAccHoldVal"></Text>
+                <Text text="{Name}" id="bankAccHoldVal"></Text>
             </HBox>
             <HBox id="hbox3">
                 <Label text="{i18n>IFSCode}" id="bankIfsc" class="sapUiSmallMarginEnd"></Label>
-                <Text text="001212****" id="bankIfscVal"></Text>
+                <Text text="{Ifsc}" id="bankIfscVal"></Text>
             </HBox>
         </VBox>
         <beginButton>

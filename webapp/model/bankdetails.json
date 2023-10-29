@@ -1,0 +1,30 @@
+{
+    "accountDetails": {
+        "AccountNum": "0000000023239",
+        "Name": "Punjab National Bank",
+        "Ifsc": "23239"
+    },
+    "cardDetails":[
+        {
+            "cardtype":"Debit Card",
+            "cardnumber": "0000000001",
+            "cardcompany":"master card",
+            "assignmentdate":"assigned on 23 Aug 2017",
+            "state":true
+        },
+        {
+            "cardtype":"Credit Card",
+            "cardnumber": "0000000003",
+            "cardcompany":"visa",
+            "assignmentdate":"assigned on 14 Aug 2017",
+            "state":false
+        },
+        {
+            "cardtype":"Debit Card",
+            "cardnumber": "0000000005",
+            "cardcompany":"master card",
+            "assignmentdate":"assigned on 09 Aug 2017",
+            "state":true
+        }
+    ] 
+}
